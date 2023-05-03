@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aquamarine;
+}
+.container {
+    width: 80%; 
+    margin: 0 auto;
+    background-color: white;
+}
+nav {
+    width: 100%;
+    background-color: blanchedalmond;
+}
+nav ul li {
+    list-style-type: none;
+    width: 23%;
+    display: inline-block;
+    text-align: center;
+}
+nav ul li a:link {
+    text-decoration: none;
+    display: block;
+    padding: 1% 0;
+    color: brown;
+}
+nav ul li a:visited {
+    text-decoration: none;
+    display: block;
+    padding: 1% 0;
+    color: black;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    display: block;
+    padding: 1% 0;
+    background-color: rgb(5, 113, 77);
+    color: white;
+}
+main {
+    padding: 1%;
+}
+main h2 {
+    text-align: center;
+}
+main section {
+    width: 32%;
+    float: left;
+    margin-right: 10px;
+}
+main section figure {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+main section figure img {
+    width: 80%;
+}
+main section ol li {
+    list-style-position: inside;
+    line-height: 1.5;
+}
+footer {
+    text-align: center;
+    padding: 1% 0;
+    clear: left;
+}
