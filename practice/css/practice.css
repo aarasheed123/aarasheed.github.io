@@ -49,10 +49,12 @@ main h2 {
 main section {
     width: 32%;
     float: left;
+    margin-right: 10px;
 }
 main section figure {
     width: 85%;
     margin: 0 auto;
+    margin-top: 10px;
 }
 main section figure img {
     width: 80%;
